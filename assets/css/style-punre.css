@@ -1,0 +1,250 @@
+h1,
+h2,
+h3,
+h4,
+a {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.redes a {
+    color: #62656f;
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.carousel .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.carousel h1 {
+    font-size: 2.5em;
+    text-align: left;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 400px;
+    padding: 10px;
+}
+
+u {
+    text-decoration-color: orange;
+}
+
+.barra {
+    font-weight: 500;
+}
+
+.txtplomo {
+    color: #929292;
+}
+
+.datos h3 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.datos h4 {
+    color: #c3bdbd;
+    font-size: 2.3em;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.btn-politica {
+    color: grey;
+    background-color: transparent;
+    font-size: 1em;
+}
+
+.btn-datos {
+    color: white;
+    font-size: 1.1em;
+    font-weight: 500;
+}
+
+.btn.focus,
+.btn:focus {
+    box-shadow: none;
+}
+
+.txtMisiovision {
+    color: white;
+    background-color: #9b692c;
+}
+
+.txtMisiovision2 {
+    color: white;
+    background-color: #96989a;
+    margin-bottom: -1px;
+}
+
+.txtMisiovision3 {
+    color: white;
+    background-color: #313332;
+    margin-bottom: -1px;
+}
+
+#instalacion ul,
+#seguridad ul {
+    list-style-image: url('../images/flechaLi2.png');
+}
+
+#movimientos ul,
+#laboratorio ul,
+#gestion ul {
+    list-style-image: url('../images/flechaLi.png');
+}
+
+.listaServicios {
+    font-weight: 700;
+}
+
+#laboratorio h4 {
+    color: #001962;
+}
+
+#respeto {
+    background-image: url('../images/gestion/bkgRespeto.png');
+}
+#accionistas p {
+    color: #001962;
+}
+
+.proyectos span {
+    line-height: 3rem;
+}
+
+.proyectos h3 {
+    font-weight: 700;
+}
+
+.proyectos h3 .subtituloProyectos {
+    padding-top: 10px;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.proyectos ul {
+    list-style: none;
+}
+
+.footer {
+    padding: 40px;
+    background-color: #62656f;
+    color: lightgrey;
+}
+
+.footer a {
+    color: lightgrey;
+}
+
+.carousel-caption {
+    right: 0;
+    left: 0;
+    padding-bottom: 0;
+}
+
+#logoBlanco {
+    margin: 470px 40px 0 0;
+    height: 80px;
+}
+
+#map {
+    height: 400px;
+    /* The height is 400 pixels */
+    width: 100%;
+    /* The width is the width of the web page */
+}
+
+
+@media (min-width: 991px) {
+    #logo {
+        padding-left: 20px;
+    }
+
+    .dropdown-menu {
+        background-color: #001962;
+        border-radius: 0;
+    }
+
+    .dropdown-item {
+        color: white;
+    }
+
+    .proyectos h3 .subtituloProyectos {
+        display: initial;
+    }
+
+    .titulo {
+        font-size: 2.2em;
+    }
+
+    .proyectos {
+        margin-left: 40px;
+    }
+
+    .proyectos ul {
+        margin-top: 40px;
+    }
+
+    .carousel h1 {
+        padding: 2% 5%;
+    }
+
+}
+
+@media (max-width: 991px) {
+
+    .navbar-nav>li>a {
+        padding: 5px;
+    }
+
+    .carousel h1 {
+        font-size: 2em;
+        padding: 8%;
+    }
+
+    .proyectos h3 .subtituloProyectos {
+        display: block;
+        padding-top: 30px;
+    }
+
+    .titulo {
+        font-size: 1.5em;
+    }
+
+    .proyectos {
+        margin-left: 10px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .carousel h1 {
+        font-size: 1.9em;
+    }
+
+    #txtLogoNaranja {
+        text-align: center;
+    }
+
+    #logo-naranja {
+        text-align: center;
+    }
+
+}
+
+/* Nuevo css */
+.card-misionvision {
+    -webkit-box-shadow: 10px 10px 66px 0px rgba(219, 219, 219, 1);
+    -moz-box-shadow: 10px 10px 66px 0px rgba(219, 219, 219, 1);
+    box-shadow: 10px 10px 66px 0px rgba(219, 219, 219, 1);
+}
+
+@media (min-width: 768px) {
+    .img-logo{
+        width: 100%;
+    }
+}
